@@ -33,7 +33,7 @@ test:
   commands:
     - test -f ${PREFIX}/bin/xeus-python                                                                    # [unix]
     - test -f ${PREFIX}/share/jupyter/kernels/xeus-python/kernel.json                                      # [unix]
-    - if exist %LIBRARY_BIN%\\xeus-python (exit 0) else (exit 1)                                           # [win]
+    - if exist %LIBRARY_BIN%\\xeus-python.exe (exit 0) else (exit 1)                                       # [win]
     - if exist %LIBRARY_PREFIX%\\share\\jupyter\\kernels\\xeus-python\\kernel.json (exit 0) else (exit 1)  # [win]
 
 about:
