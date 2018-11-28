@@ -25,9 +25,11 @@ requirements:
     - xeus >=0.16.0,<0.17.0
     - pybind11 >=2.2.4,<3.0
     - nlohmann_json >=3.2.0,<4.0
+    - python
   run:
     - zeromq 4.2.5
     - xeus >=0.16.0,<0.17.0
+    - python
 
 test:
   commands:
