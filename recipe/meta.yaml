@@ -1,6 +1,6 @@
 {% set name = "xeus-python" %}
-{% set version = "0.0.3" %}
-{% set sha256 = "911c9a52bc90990cc415397d7fcec427422c28dc1abd7bde6e924b11dfe44c69" %}
+{% set version = "0.0.4" %}
+{% set sha256 = "1cc0647e7d8503ec1985b52c8ab2bd775afa283b4b17ed80c36d0caef9468963" %}
 
 package:
   name: {{ name|lower }}
@@ -21,14 +21,14 @@ requirements:
     - cppzmq 4.3.0
     - zeromq 4.2.5
     - gcc-7             # [linux]
-    - xtl >=0.5.0,<0.6
-    - xeus >=0.17.0,<0.18.0
+    - xtl >=0.5.2,<0.6
+    - xeus >=0.18.1,<0.19.0
     - pybind11 >=2.2.4,<3.0
     - nlohmann_json >=3.3.0,<4.0
     - python
   run:
     - zeromq 4.2.5
-    - xeus >=0.17.0,<0.18.0
+    - xeus >=0.18.1,<0.19.0
     - jedi >=0.13.1,<0.14
     - python
 
